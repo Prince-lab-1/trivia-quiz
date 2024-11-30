@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="brandname" style="font-size: 17vh;">
+        <h1>Ask.com</h1>
+    </div>
+
+    <div id="points_counter" style="display: none;">
+        <p><span>points : </span><span id="numerator">0</span>/<span>10</span></p>
+    </div>
+    <div id="question_container" style="display: none;">
+        <h1 id="question" style="color: white;"></h1>
+    </div>
+     
+    <div id="options" style="display: none;">
+        <h1 style="color: yellow;"><u>Select your answer below</u></h1>
+
+        <br><br><br>
+
+        <button id="choice1" name="buttons">choice 1</button>
+
+        <br><br>
+        
+        <button id="choice2" name="buttons">choice 2</button>
+
+        <br><br>
+
+        <button id="choice3" name="buttons">choice 3</button>
+
+        <br><br>
+
+        <button id="choice4" name="buttons">choice 4</button>
+       
+
+    </div>
+
+    </div>
+    <div id="start_quiz">
+        <button id="start_quiz_btn" onclick="starting()">start quiz</button>
+    </div>
+    <div id="nextbtn" style="display: none;">
+        <button id="next"  onclick="fetching()"><i class="fas fa-arrow-right-long"></i></button>
+    </div>
+
+    <script src="indexreal.js"></script>
+</body>
+</html>

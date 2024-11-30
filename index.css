@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+#brandname{
+    position: relative;
+    top: 2vh;
+    margin: auto;
+}
+#brandname h1{
+    position: relative;
+    color: yellow;
+    text-align: center;
+    
+}
+
+#points_counter{
+    position: relative;
+    padding: 2vh;
+    border: solid 2px white;
+    width: 18vh;
+    left: 167vh;
+    top: 5vh;
+    color: white;
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: row;
+}
+#question{
+    position: relative;
+    margin: auto;
+    border: solid 2px white;
+    width: 170vh;
+    height: 10vh;
+    top: 10vh;
+    text-transform: capitalize;
+}
+
+#options{
+    color: white;
+    position: relative;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    background-color: transparent;
+    top: 15vh;
+    text-align: center;
+}
+
+
+#choice1  h1{
+    position: relative;
+    margin: auto;
+}
+
+#options button:hover{
+    box-shadow: 0 0 10px 10px yellow;
+}
+
+button:disabled{
+    opacity: 0.5;
+    cursor: no-drop;
+}   
+
+#choice1{
+    width: 100vh;
+    height: 10vh;
+    font-size: 3vh;
+    text-transform: capitalize;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#choice2{
+    width: 100vh;
+    height: 10vh;
+    font-size: 3vh;
+    text-transform: capitalize;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+#choice3{
+    width: 100vh;
+    height: 10vh;
+    font-size: 3vh;
+    text-transform: capitalize;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#choice4{
+    width: 100vh;
+    height: 10vh;
+    font-size: 3vh;
+    text-transform: capitalize;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+/* designing nxt btn */
+#next{
+    position: relative;
+    font-size: 7vh;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: auto;
+    left: 175vh;
+    top: 5.8vh; 
+    background: transparent;
+    color: yellow;
+    border: solid 2px white;  
+
+}
+
+#next:hover{
+    
+    box-shadow: 0 0 5px 5px yellow;
+}
+
+/* end */
+
+/* ---making starting  btn----- */
+
+    #start_quiz{
+        position: relative;
+        width: 20vh;
+        height: 10vh;
+        top: 40vh;
+        margin: auto;
+
+    }
+    #start_quiz button{
+        background: transparent;
+        border: solid 2px white;
+        width: 20vh;
+        height: 10vh;
+        top: 40vh;
+        margin: auto;
+        color: white;
+        font-size: 3vh;
+        cursor: pointer;
+        text-transform: capitalize;
+
+    }
+    #start_quiz button:hover{
+        box-shadow: 0 0 4px 4px yellow;
+        color: yellow;
+    }
+/* ----end---- */
